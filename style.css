@@ -5,6 +5,7 @@
   --slate-500: #68778d;
   --slate-300: #d5e1ef;
   --white: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.0477);
 }
 
 body {
@@ -26,14 +27,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0477);
+  box-shadow: 0 25px 25px var(--shadow-color);
 }
 
 .card__img {
-  width: 288px;
+  width: 18rem;
   height: auto;
   border-radius: 0.625rem;
-  margin-bottom: 1.5rem;
+  margin-block-end: 1.5rem;
 }
 
 .card__text-container {
